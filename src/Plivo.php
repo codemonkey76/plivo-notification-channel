@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Plivo;
+namespace Codemonkey76\Plivo;
 
 use Plivo\RestClient as PlivoRestClient;
 

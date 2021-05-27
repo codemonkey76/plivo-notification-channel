@@ -1,15 +1,13 @@
 <?php
 
-namespace App\Plivo;
-
-use JetBrains\PhpStorm\Pure;
+namespace Codemonkey76\Plivo;
 
 class PlivoMessage
 {
     public string $content;
     public string $from;
 
-    #[Pure] public static function create(string $content = ''): static
+    public static function create(string $content = ''): static
     {
         return new static($content);
     }

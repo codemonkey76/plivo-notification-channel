@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Plivo;
+namespace Codemonkey76\Plivo;
 
-use App\Plivo\Exceptions\CouldNotSendNotification;
+use Codemonkey76\Plivo\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
 
 class PlivoChannel

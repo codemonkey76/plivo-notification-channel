@@ -1,16 +1,11 @@
 <?php
 
-namespace App\Plivo;
+namespace Codemonkey76\Plivo;
 
 use Illuminate\Support\ServiceProvider;
 
 class PlivoServiceProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
     public function boot()
     {
         $this->app->when(PlivoChannel::class)
