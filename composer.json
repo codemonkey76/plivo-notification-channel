@@ -24,4 +24,11 @@
             "NotificationChannels\\Plivo\\": "src"
         }
     }
+    "extra": {
+	    "laravel": {
+		    "providers": [
+			    "Codemonkey76\\Plivo\\PlivoServiceProvider"
+		    ]
+	    }
+    }
 }
