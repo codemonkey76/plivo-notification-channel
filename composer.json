@@ -23,7 +23,7 @@
         "psr-4": {
             "NotificationChannels\\Plivo\\": "src"
         }
-    }
+    },
     "extra": {
 	    "laravel": {
 		    "providers": [
