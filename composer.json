@@ -1,0 +1,27 @@
+{
+    "name": "codemonkey76/plivo-notification-channel",
+    "description": "Plivo SMS notifications driver for Laravel",
+    "keywords": [
+        "laravel",
+        "notifications",
+        "plivo"
+    ],
+    "homepage": "https://github.com/codemonkey76/plivo-notification-channel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shane Poppleton",
+            "email": "shane@bjja.com.au"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "plivo/plivo-php": "^4.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Plivo\\": "src"
+        }
+    }
+}
